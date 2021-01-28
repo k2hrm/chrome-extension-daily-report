@@ -1,0 +1,12 @@
+{
+  "name": "Backlog DOM sculpture",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Backlog DOM sculpture(for daily report)",
+  "content_scripts": [{
+    "matches": ["https://*****.backlog.jp/user/name@domain.jp"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
